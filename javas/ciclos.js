@@ -61,18 +61,42 @@
 
 
 
-const persona = {
-    edad : 17,
-    nombre : "jefier stevan briceño vera",
-    username : "pepe2"
-}
+// const persona = {
+//     edad : 17,
+//     nombre : "jefier stevan briceño vera",
+//     username : "pepe2"
+// }
 
-const { edad:edad2,nombre:nombre2,username="pepe" } = persona;
+// const { edad:edad2,nombre:nombre2,username="pepe" } = persona;
 
-console.log(edad2,nombre2,username)
+// console.log(edad2,nombre2,username)
 
 
 // let caracter = persona.edad;
 // let caracter2 = persona.nombre;
 
 // console.log(persona);
+
+
+// let n1 = 220;
+// let n2 = 284;
+// let sonAmigos = amigos(n1,n2);
+// console.log(sonAmigos);
+
+
+// const amigos = (n1,n2) => {
+//     let cont1 = 0;
+//     let cont2 = 0;
+//     for( let a = 1; a < n1; a++){
+//         if(n1 % a === 0) cont1 += a;        
+//     }
+//     for( let a = 1; a < n2; a++){
+//         if(n2 % a === 0) cont2 += a;        
+//     }
+//     if(n1 === cont1 && n2 === cont2){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+
